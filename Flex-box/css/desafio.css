@@ -44,13 +44,14 @@ section{
 .bloco{
     background-color: rgb(0, 168, 98);
     border: 2px solid;
-    padding: 30px;
+    padding: 40px;
 }
 
 aside{
     background-color: lightskyblue;
     border: 2px solid;
     width: 20%;
+    
 }
 
 footer{
