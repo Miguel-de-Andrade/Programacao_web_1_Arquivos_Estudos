@@ -2,60 +2,40 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-.container{
-    height: 500px;
-    border: 3px solid;
-}
-
-header{
-    height: 20%;
-    background-color: lightblue;
-}
-
-.principal{
-    height: 70%;
-    background-color: lightgray;
-     
-    display: flex;
-    flex-wrap: wrap;
-}
-
-main{
-    background-color: lightgreen;
-    width: 70%;
-    
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
+    margin-left: 3px;
     
 }
 
-section{
+
+.pai{
     border: 2px solid;
-    height: 90%;
-    margin-top: 20px;
-    width: 20%;
-    background-color: lightseagreen;
-
+    width: 98%;
+    height: 300px;  
     display: flex;
+    justify-content: space-evenly;   
+    align-items: center;
+    flex-direction: column;
+}
 
+.filho {
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 7em;
+    background-color: blue;
+    width: 50px;   
+    height: 50px; 
+    color: white;
 }
-
-aside{
-    background-color: lightgoldenrodyellow;
-    border: 2px solid;
-    width: 30%;
-    order: -1;
+.amarela{
+    border: 2px solid;  
+    background-color: yellow;
+    color: black;
 }
-
-footer{
-    background-color: lightpink;
-    height: 10%;
+.laranja{
+    background-color: orange;
+    order: -2;
 }
-
+.lilas{
+    background-color: blueviolet;
+    
+}
