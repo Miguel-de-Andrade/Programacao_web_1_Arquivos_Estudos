@@ -6,5 +6,9 @@
 }
 
 .item{
-    border: 2px solid;
+    border: 2px solid; 
+}
+
+.item1{
+    grid-row: ;
 }
