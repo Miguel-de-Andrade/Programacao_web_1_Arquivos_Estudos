@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 500px;
+}
+
+header{
+    height: 20%;
+    background-color: lightcyan;
+}
+
+.principal{
+    height: 70%;
+    background-color: lightcoral;
+
+    display: flex;
+}
+
+main{
+    display: flex;
+    
+    width: 70%;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+section{
+    background-color: aqua;
+    border: 2px solid;
+
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.caixa{
+    padding: 50px;
+    background-color: lightcoral;
+    
+}
+
+aside{
+    width: 30% ;
+    background-color: lightseagreen;
+
+    order: -2;
+
+}
+
+footer{
+    height: 10%;
+    background-color: lightgreen;
+}
