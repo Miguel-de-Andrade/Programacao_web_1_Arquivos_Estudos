@@ -39,3 +39,5 @@ let num2 = Number(prompt ("Insira o numero 2"))
 
 let soma = num1 + num2
 console.log(soma)
+
+
